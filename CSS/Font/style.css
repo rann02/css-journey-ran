@@ -1,0 +1,12 @@
+h1 {
+	font-size: 72px;
+	background: linear-gradient(
+		750deg, #b527cf, #3bd9d9);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+p{
+font-family: georgia, serif;
+font-weight: bold;
+line-height: 50px;
+}
