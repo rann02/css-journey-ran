@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+    padding: 20px;
+}
+
+.navigationlist {
+    list-style: none;
+    display: flex;
+    border-top: 1px solid #ccc;
+}
+
+.navigationItem {
+    font-weight: bold;
+    font-size: 13px;
+    color: #868686;
+    letter-spacing: 0.7px;
+}
