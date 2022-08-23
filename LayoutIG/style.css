@@ -1,13 +1,35 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 nav {
     border-bottom: #fafafa;
 }
 
-nav div .container {
+nav {
     border-bottom: solid black 1px;
-    background-color: greenyellow;
+    background-color: lightgray;
+    display: flex; 
+    width: 100%;
+}
+
+div.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+div.bagiansatu{
+    background-color: salmon;
+}
+
+div.bagiandua {
+    border-color: aquamarine;
+}
+
+div.bagiantiga {
+    display: flex;
+    background-color: aqua;
 }
