@@ -6,3 +6,8 @@
 nav {
     border-bottom: #fafafa;
 }
+
+nav div .container {
+    border-bottom: solid black 1px;
+    background-color: greenyellow;
+}
