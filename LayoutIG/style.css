@@ -91,13 +91,13 @@
 
 /* Resposive Nav-bar */
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 376px) {
     .nav-hp1 {
         display: none;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     .cover-nav {
         display: none;
     }
