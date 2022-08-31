@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    width: 100%;
+    height: 110px;
+    background-color: lightblue;
+}
+.d-saran {
+    width: 100%;
+    height: 32px;
+    background-color: green;
+}
+
+.main-header {
+    width: 100%;
+    height: 56px;
+    background-color: greenyellow;
+}
