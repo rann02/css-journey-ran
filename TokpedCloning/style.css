@@ -12,11 +12,88 @@
 .d-saran {
     width: 100%;
     height: 32px;
-    background-color: green;
+    background-color:green;
+    display: flex;
+    padding: 0 32px;
+    justify-content: space-between;
+}
+
+.bag-download {
+    display: flex;
+    width: 172.45px;
+    height: 31px;
+    background-color: aliceblue;
+    align-items: center;
+    flex-wrap: nowrap;
+} 
+
+.ikonhp {
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+}
+
+.download {
+    width: 148.45px;
+    font-size: 12px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.bag-kalimat {
+    width: 533px;
+    height: 31px;
+    background-color: aqua;
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bag-kalimat a {
+     font-size: 12px;
+     flex-wrap: nowrap;
+     white-space: nowrap;
+     text-decoration: none;
 }
 
 .main-header {
     width: 100%;
     height: 56px;
     background-color: greenyellow;
+    display: flex;
+    padding: 0px 30px;
+}
+
+.logo {
+    background-image: url(Gambar/IkonTokped.svg);
+    width: 145px;
+    height: 32px;
+    background-repeat: no-repeat;
+
+}
+
+.kategori {
+    font-size: 12px;
+}
+
+.barrier {
+    width: 1.19px;
+    height: 24px;
+}
+
+.button {
+    display: flex;
+}
+
+.main-bawah {
+    display: flex;
+    padding-left: 200px;
+}
+
+.alamat {
+    display: flex;
+}
+
+.keterangan {
+    display: flex;
 }
