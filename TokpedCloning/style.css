@@ -177,3 +177,26 @@
 .coundown {
     display: flex;
 }
+
+.jam {
+    width: 32px;
+    height: 32px;
+    background-color: red;
+}
+
+.batas1 {
+    font-size: 1.42857rem;
+    color: red;
+}
+
+.menit {
+    width: 32px;
+    height: 32px;
+    background-color: red;
+}
+
+.detik {
+    width: 32px;
+    height: 32px;
+    background-color: red;
+}
