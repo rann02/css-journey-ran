@@ -176,12 +176,16 @@
 
 .coundown {
     display: flex;
+    width: 250.35px;
+    height: 32px;
+    justify-content: space-evenly;
 }
 
 .jam {
     width: 32px;
     height: 32px;
     background-color: red;
+    border-radius: 3px;
 }
 
 .batas1 {
@@ -193,10 +197,54 @@
     width: 32px;
     height: 32px;
     background-color: red;
+    border-radius: 3px;
 }
 
 .detik {
     width: 32px;
     height: 32px;
     background-color: red;
+    border-radius: 3px;
+}
+
+.lihatsemua {
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.traktir-down {
+    width: 1000px;
+    height: 351.817px;
+    padding: 24px 20px 20px 20px;
+    position: relative;
+    display: flex;
+    gap: 3px;
+}
+
+.promo-mini1 {
+    display: block;
+    width: 234px;
+    height: 351.817px;
+    background: rgb(255, 241, 0);
+    z-index: 2;
+    top: 0px;
+    left: 20px;
+    position: absolute;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+.g-promomini1 {
+    width: 152.1px;
+    height: 304.2px;
+    background-image: url(Gambar/promomini1.webp);
+    background-size: 100%;
+}
+
+.produk1 {
+    width: 162.667px;
+    height: 303.817px;
+    background-color: blue;
+    border-radius: 8px;
 }
