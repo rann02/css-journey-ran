@@ -152,3 +152,28 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.traktir-promo2 {
+    width: 980px;
+    height: 401.81px;
+    margin: 0px auto;
+}
+
+.traktir-up {
+    display: flex;
+    width: 980px;
+    height: 34px;
+}
+
+.T-penggunabaru {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.berakhirdalam {
+    padding-left: 20px;
+}
+
+.coundown {
+    display: flex;
+}
