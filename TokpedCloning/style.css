@@ -1,0 +1,252 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    width: 100%;
+    height: 110px;
+    background-color: lightblue;
+}
+.d-saran {
+    width: 100%;
+    height: 32px;
+    background-color:green;
+    display: flex;
+    padding: 0 32px;
+    justify-content: space-between;
+}
+
+.bag-download {
+    display: flex;
+    width: 172.45px;
+    height: 31px;
+    background-color: aliceblue;
+    align-items: center;
+    flex-wrap: nowrap;
+} 
+
+.ikonhp {
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+}
+
+.download {
+    width: 148.45px;
+    font-size: 12px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.bag-kalimat {
+    width: 533px;
+    height: 31px;
+    background-color: aqua;
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bag-kalimat a {
+     font-size: 12px;
+     flex-wrap: nowrap;
+     white-space: nowrap;
+     text-decoration: none;
+}
+
+.main-header {
+    width: 100%;
+    height: 56px;
+    background-color: greenyellow;
+    display: flex;
+    padding: 0px 30px;
+}
+
+.logo {
+    background-image: url(Gambar/IkonTokped.svg);
+    width: 145px;
+    height: 32px;
+    background-repeat: no-repeat;
+
+}
+
+.kategori {
+    font-size: 12px;
+}
+
+.barrier {
+    width: 1.19px;
+    height: 24px;
+}
+
+.button {
+    display: flex;
+}
+
+.main-bawah {
+    display: flex;
+    padding-left: 200px;
+}
+
+.alamat {
+    display: flex;
+}
+
+.keterangan {
+    display: flex;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.main-iklan {
+    width: 960px;
+    height: 240px;
+    margin: 24px auto;    
+    border-radius: 8px;
+    overflow-y: scroll;
+}
+.isi1 { 
+    width: 100%;
+    height: 240px;
+    background-image: url(Gambar/iklan-utama1.webp);
+}
+
+.isi1-1 {
+    width: 100%;
+    height: 240px;
+    background-image: url(Gambar/iklan-utama2.webp);
+}
+
+.promosi1 {
+    display: block;
+    width: 960px;
+    height: 291px;
+    margin: 0px auto;
+}
+
+.isi2 {
+    display: block;
+}
+
+.detail-promosi{
+    display: flex;
+}
+
+.kategori-1 {
+    width: 456px;
+    height: 195px;
+}
+
+.bag-promosi1 {
+    width: 456px;
+    height: 195px;
+}
+
+.kategori-pilihan {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.traktir-promo2 {
+    width: 980px;
+    height: 401.81px;
+    margin: 0px auto;
+}
+
+.traktir-up {
+    display: flex;
+    width: 980px;
+    height: 34px;
+}
+
+.T-penggunabaru {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.berakhirdalam {
+    padding-left: 20px;
+}
+
+.coundown {
+    display: flex;
+    width: 250.35px;
+    height: 32px;
+    justify-content: space-evenly;
+}
+
+.jam {
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    border-radius: 3px;
+}
+
+.batas1 {
+    font-size: 1.42857rem;
+    color: red;
+}
+
+.menit {
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    border-radius: 3px;
+}
+
+.detik {
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    border-radius: 3px;
+}
+
+.lihatsemua {
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.traktir-down {
+    width: 1000px;
+    height: 351.817px;
+    padding: 24px 20px 20px 20px;
+    position: relative;
+    display: flex;
+    gap: 3px;
+    overflow-x: scroll;
+    flex-wrap: wrap;
+}
+
+.promo-mini1 {
+    display: block;
+    width: 234px;
+    height: 351.817px;
+    background: rgb(255, 241, 0);
+    z-index: 2;
+    top: 0px;
+    left: 20px;
+    position: absolute;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+.g-promomini1 {
+    width: 152.1px;
+    height: 304.2px;
+    background-image: url(Gambar/promomini1.webp);
+    background-size: 100%;
+}
+
+.produk1 {
+    width: 162.667px;
+    height: 303.817px;
+    background-color: blue;
+    border-radius: 8px;
+}
