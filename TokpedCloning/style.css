@@ -13,9 +13,10 @@
 .top-bar {
   width: 100%;
   height: 110px;
-  background-color: lightblue;
+  background-color: white;
   position: fixed;
   z-index: 4;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 7%);
 }
 .d-saran {
   width: 100%;
@@ -64,7 +65,7 @@
 .main-header {
   width: 100%;
   height: 56px;
-  background-color: greenyellow;
+  background-color: white;
   display: flex;
   padding: 0px 30px;
 }
@@ -328,6 +329,10 @@
   overflow-x: scroll;
 }
 
+.bag-bawah2::-webkit-scrollbar {
+  display: none;
+}
+
 .diskon-spesial {
   display: block;
   width: 234px;
@@ -458,6 +463,11 @@
   overflow-y: scroll;
 }
 
+.display2::-webkit-scrollbar {
+  display: none;
+}
+
+
 .d-product1 {
   min-width: 146px;
   height: 311px;
@@ -516,11 +526,21 @@
   margin-top: 15px;
 }
 
-.opsi::-webkit scrollbar{
+.opsi::-webkit-scrollbar {
   display: none;
 }
 
-.promo, .tiket, .t-kereta, .hotel, .k-prakerja, .food, .p-digital, .fintech, .salam, .find, .blog{
+.promo, .hotel, .fintech {
+  min-width: 6em;
+  height: 52px;
+  font-weight: 650;
+  font-size: 14px;
+  color: rgba(49,53,59,0.44);
+  background-color: transparent;
+  border: none;
+}
+
+.tiket, .t-kereta, .k-prakerja, .food, .p-digital, .salam, .find, .blog {
   min-width: 9em;
   height: 52px;
   font-weight: 650;
