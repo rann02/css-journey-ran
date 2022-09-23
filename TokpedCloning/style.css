@@ -73,26 +73,69 @@ body {
   background-color: white;
   display: flex;
   padding: 0px 30px;
-  align-items: baseline;
+  align-items: center;
 }
 
 .logo {
   width: 145px;
   height: 42px;
-  display: flex;
   justify-content: center;
   text-decoration: none;
-  padding-top: 0.7em;
+  padding-top: 0.2em;
   padding-left: 0.3em;
+}
+
+.logo img {
+  object-fit: cover;
+}
+
+.b-kategori {
+  display: flex;
+  width: 8%;
 }
 
 .kategori {
   font-size: 12px;
+  color: #31353BAD;
+  width: 100%;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  width: 55%;
+  height: 48px;
+  position: relative;
+  padding: 10px 12px ;
+}
+
+.searcbar {
+  width: 100%;
+  border: none;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+.logo-pencarian {
+  background-image: url(Gambar/pencarian.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px;
+  height: 26px;
+  position: absolute;
+  right: 13px;
+  top: 11px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px 8px 8px 0px;
 }
 
 .barrier {
   width: 1.19px;
   height: 24px;
+  margin: 0px 0px 0px 16px;
+  border-right: 1px solid #E0E0E0 ;
 }
 
 .button-topup button:hover {
@@ -110,17 +153,73 @@ body {
   justify-content: space-between;
 }
 
+.keranjang-logo {
+  background-image: url(Gambar/keranjang.svg);
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  background-size: contain;
+}
+
 .button {
   display: flex;
+  gap: 8px;
+  margin-left: 14px;
+}
+
+.masuk {
+  width: 47%;
+  height: 32px;
+  padding: 0px 16px;
+  font-weight: 800;
+  border-radius: 8px;
+  font-size: 12px;
+  background: white;
+  color: rgb(3, 172, 14);
+  cursor: pointer;
+  border: 1px solid rgb(3, 172, 14);
+}
+
+.daftar {
+  width: 47%;
+  height: 32px;
+  color: white;
+  padding: 0px 16px;
+  font-weight: 800;
+  border-radius: 8px;
+  font-size: 12px;
+  background: rgb(3, 172, 14);
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-bawah {
   display: flex;
-  padding-left: 200px;
+  padding-left: 15.5em;
+  padding-right: 30px;
+  justify-content: space-between;
+}
+
+.led {
+  white-space: 17px;
+  width: 40%;
+  display: flex;
+  gap: 1em;
+}
+
+.led a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #31353BAD;
 }
 
 .alamat {
   display: flex;
+  font-size: 12px;
+  color: #31353BAD;
 }
 
 .keterangan {
