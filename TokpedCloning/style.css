@@ -6,6 +6,196 @@
   text-decoration: none;
 }
 
+/* Login Page */
+
+.topl {
+  margin-top: 20px;
+  height: 37px;
+  text-align: center;
+}
+
+.gl-login {
+  height: 34px;
+}
+
+.g-isi {
+  height: 303px;
+  width: 360px;
+  aspect-ratio: auto 360 / 303;
+}
+
+.kotak {
+  height: 489.141px;
+  width: 1190px;
+  padding-top: 50px;
+  margin: 22px auto 0 auto;
+  display: flex;
+}
+
+.kiri, .kanan {
+  width: 50%;
+}
+
+.kiri {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-items: center;
+}
+
+.coverxyz {
+  padding-right: 80px;
+  width: 478.891px;
+}
+
+.tulisan-jual {
+  font-size: 1.44em;
+  font-weight: 700;
+  color: rgba(0,0,0,0.7);
+  margin-top: 30px;
+  white-space: nowrap;
+}
+
+.tulisan2 {
+  margin-top: 5px;
+  font-size: 0.91rem;
+  line-height: 22px;
+  color: #606060;
+  text-align: center;
+}
+
+.sampul-kanan {
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+  border: 1px solid #e0e0e0;
+  margin: 0px auto;
+  width: 400px;
+  padding: 24px 40px 32px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgba(0,0,0,0.7);
+}
+
+.tulisan3 {
+  margin-top: 8px;
+  text-align: center;
+  color: rgba(0,0,0,0.54);
+  font-size: .95rem;
+  line-height: 1.5px;
+}
+
+.hijau2 {
+  color: #03AC0E;
+  margin: 0 2px;
+}
+
+.google {
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  height: 40px;
+  background-image: url(Gambar/google.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #E5E7E9;
+  background-color: transparent;
+  border-radius: 8px;
+}
+
+.google span {
+  font-weight: 700;
+  font-size: .95rem;
+
+}
+
+.tengah {
+  margin-top: 24px;
+  display: flex;
+  white-space: nowrap;
+  text-align: center;
+  color:#6C727C;
+  font-size: 0.8571428571428571rem;
+}
+
+.f-satu {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+
+.f-satu label {
+  font-weight: 400;
+  font-size: 0.8571428571428571rem;
+  line-height: 1.33;
+  color: rgba(0,0,0,0.54);
+}
+
+.f-satu input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #E5E7E9;
+  border-radius: 8px;
+  padding: 0 16px;
+}
+
+.example {
+  margin-top: 4px;
+}
+
+.daftar-l {
+  width: 100%;
+  margin-top: 16px;
+  padding: 0 16px;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  color: #6C727C;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.k-akhir {
+  margin-top: 15px;
+  color: #6C727C;
+  font-size: 0.8571428571428571rem;
+  text-align: center;
+  line-height: 18px;
+  font-size: .8rem;
+}
+
+.k-akhir a {
+  color: #03AC0E;
+  margin: 0px 2px ;
+}
+
+.xyz-bawah {
+  height: 67px;
+  margin-top: 120px;
+  text-align: center;
+  white-space: nowrap;
+  font-size: .9rem;
+}
+
+.xyz-bawah a {
+  padding-left: 14px;
+  border-left: solid 1px #E5E7E9;
+  color: #03AC0E;
+  font-weight: bold;
+}
+
+/* Main Page */
+
 body {
   display: flex;
   flex-direction: column;
