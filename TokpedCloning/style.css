@@ -387,10 +387,6 @@ body {
   justify-content: space-between;
 }
 
-.s-satu {
-
-}
-
 .led {
   white-space: 17px;
   width: 40%;
@@ -1259,7 +1255,7 @@ body {
   height: 152px;
 }
 
-.punyatoko{
+.punyatoko { 
   font-size: 0.75rem;
   font-weight: 800;
   line-height: 40px;
